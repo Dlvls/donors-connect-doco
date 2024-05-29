@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.BloodBank0063" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_red</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primary_red</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_red</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="RedDatePickerStyle" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:headerBackground">@color/primary_red</item>
+        <item name="android:colorControlActivated">@color/primary_red</item>
+        <item name="android:datePickerStyle">@color/primary_red</item>
+        <!--        <item name="android:headerTextColor">@android:color/white</item>-->
+    </style>
+
+    <style name="tabTitleStyle">
+
+        <item name="fontFamily">@font/nunito_sans_bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+</resources>

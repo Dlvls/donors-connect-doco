@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="24dp"
+    tools:context=".profile.pager.DonationFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDonationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_donor_donated" />
+
+</LinearLayout>
